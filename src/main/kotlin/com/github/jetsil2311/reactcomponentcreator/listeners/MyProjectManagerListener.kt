@@ -1,9 +1,9 @@
-package org.jetbrains.plugins.template.listeners
+package com.github.jetsil2311.reactcomponentcreator.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.jetsil2311.reactcomponentcreator.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
